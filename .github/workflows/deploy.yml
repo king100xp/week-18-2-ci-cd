@@ -27,7 +27,7 @@ jobs:
           tags: kingxop/user_app:latest
       
       - name: "verifying pushed image "
-        run: docker pull king100xp/user_app:latest
+        run: docker pull kingxop/user_app:latest
         
       
 
