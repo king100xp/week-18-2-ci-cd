@@ -24,7 +24,7 @@ jobs:
           context: .
           file: ./docker/Dockerfile.user
           push: true
-          tag: king100xp/user_app:latest
+          tags: king100xp/user_app:latest
       
       - name: "verifying pushed image "
         run: docker pull king100xp/user_app:latest
