@@ -2,7 +2,7 @@ name: "Build and Deploy Containerized App"
 on:
   push:
     branches:
-      -"master"
+      - "master"
 
 jobs:
   build-deploy:
